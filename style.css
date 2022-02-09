@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:50px;
+}
+.upper p{
+    font-size:1.5rem;
+}
+.upper i{
+    font-size: 3em;
+    cursor: pointer;
+}
+
+/* media icon */
+.mediaIcon{
+    display: flex;
+    justify-content:center;
+    gap: 2.5em;
+    margin-top: 2rem;
+}
+.mediaIcon i {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.addButton{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+}
+.addButton i {
+    font-size: 3em;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.addButton strong {
+    font-size: 2em;
+}
+.postBtn{
+    margin-top:2rem;
+}
+.postBtn a{
+    padding: 0 5rem;
+    border-radius: 15px;
+}
+.postBtn a i{
+    margin-right: 1rem;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.downloadBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+/* file upload */
+.fileUpload {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 1.25em auto;/*20px/16px 0*/
+    margin-bottom: 0 !important;
+	overflow: hidden;
+	padding: 0.875em;/*14px/16px*/
+	position: relative;
+	text-align: center;
+	width: fit-content;
+    cursor: pointer;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 148px;
+    height: 46px;
+  cursor: pointer;
+}
