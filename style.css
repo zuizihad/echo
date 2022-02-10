@@ -4,10 +4,25 @@
     box-sizing: border-box;
 }
 
+.contentUpload{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    flex-direction: column-reverse;
+}
+.contentUpload .btn-file{
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .btn-file {
     position: relative;
     overflow: hidden;
 }
+.btn-file i {
+    color: black;
+} 
 .btn-file input[type=file] {
     position: absolute;
     top: 0;
@@ -148,5 +163,19 @@ small{
     filter: alpha(opacity=0);
     width: 148px;
     height: 46px;
-  cursor: pointer;
+   cursor: pointer;
+}
+
+.form-upload{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    footer{
+        display: none;
+    }
 }
