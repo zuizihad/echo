@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -27,6 +29,10 @@
 
     <!-- main -->
     <main class="container">
+        <!-- The video -->
+        <video autoplay muted loop id="background-video">
+            <source src="/assets/video/Background-Video.mp4" type="video/mp4">
+        </video>
         <section>
             <div class="col s12 m7">
                 <div class="card horizontal">
@@ -46,6 +52,7 @@
                                 <form class="col s6 offset-s1">
                                     <div class="row">
                                         <div class="input-field col s12">
+                                            <i class="material-icons prefix">account_circle</i>
                                             <input autocomplete="off" placeholder="enter name" id="name" type="text"
                                                 class="validate">
                                             <label for="name">Name</label>
@@ -54,10 +61,10 @@
                                     <div class="row">
                                         <div class="input-field col s12">
                                             <div class="file-field input-field">
-                                                <div class="btn">
-                                                    <span>Image</span>
-                                                    <input type="file">
-                                                </div>
+                                                <span class="btn btn-file" style="background-color: #BDB999">
+                                                    <i class="material-icons left">cloud_upload</i>
+                                                    Image<input type="file" accept="image/*">
+                                                </span>
                                                 <div class="file-path-wrapper">
                                                     <input placeholder="Upload image" class="file-path validate"
                                                         type="text">
@@ -67,6 +74,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
+                                            <i class="material-icons prefix">email</i>
                                             <input autocomplete="off" placeholder="enter email" id="email" type="email"
                                                 class="validate">
                                             <label for="email">Email</label>
@@ -74,6 +82,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
+                                            <i class="material-icons prefix">lock</i>
                                             <input autocomplete="off" placeholder="enter password" id="password"
                                                 type="password" class="validate">
                                             <label for="password">Password(Min 6 characters)</label>
