@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 .upper p{
     font-size:1.5rem;
@@ -31,6 +31,7 @@
 }
 
 .addButton{
+    margin-left: 2rem;
     margin-top:2.5rem;
     margin-bottom:2.5rem;
 }
@@ -44,10 +45,13 @@
 }
 .postBtn{
     margin-top:2rem;
+    padding:2rem;
 }
 .postBtn a{
     padding: 0 5rem;
     border-radius: 15px;
+    color: black;
+    background-color: #BDB999;
 }
 .postBtn a i{
     margin-right: 1rem;
@@ -56,6 +60,20 @@
 footer{
     margin-top: 2rem;
     margin-bottom: 5rem;
+    width: 70%;
+    margin: 0 auto;
+}
+footer p{
+    font-size: 1.5rem;
+    font-family: 100;
+
+}
+small{
+    font-size:20px;
+    font-weight: 100;
+}
+.fileUpload span i{
+    font-size: 2em;
 }
 
 .downloadBtn{
@@ -63,6 +81,10 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 2em;
+}
+
+.downloadBtn div a span{
+    color: #fff;
 }
 
 /* file upload */
